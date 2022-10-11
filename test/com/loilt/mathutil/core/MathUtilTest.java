@@ -75,7 +75,7 @@ public class MathUtilTest {
     
     @Test   //(expected = Exception.class)
     public void testFactorialGivenWrongArgumentThrowsException() {
-//        MathUtil.getFactorial(-5);
+        MathUtil.getFactorial(-5);
         
         //Test case #6: n = 5, exception: hy vọng thấy ngoại lệ
         //tên là IllegalArgumentException
